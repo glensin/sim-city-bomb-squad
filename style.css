@@ -1,0 +1,116 @@
+.unexploded{
+  background-image: url('img/simcity.jpg');
+}
+
+#wireholder{
+  width: 125px;
+  height: 250px;
+  border: 2px solid black;
+  display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row /* works with row or column */
+   flex-direction: row;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+
+
+
+
+}
+#cut-blue{
+  background-image: url('img/cut-blue-wire.png');
+}
+
+#cut-green{
+  background-image: url('img/cut-green-wire.png');
+}
+
+#cut-red{
+  background-image: url('img/cut-red-wire.png');
+}
+
+#cut-white{
+  background-image: url('img/cut-white-wire.png');
+}
+
+#cut-yellow{
+  background-image: url('img/cut-yello-wire.png');
+}
+
+#uncut-blue{
+  background-image: url('img/uncut-blue-wire.png');
+background-repeat: no-repeat;
+height: 250px;
+width: 25px;
+
+
+}
+
+#uncut-green{
+  background-image: url('img/uncut-green-wire.png');
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 25px;
+
+
+}
+
+#uncut-red{
+  background-image: url('img/uncut-red-wire.png');
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 25px;
+
+
+}
+
+#uncut-white{
+  background-image: url('img/uncut-white-wire.png');
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 25px;
+
+
+}
+
+#uncut-yellow{
+  background-image: url('img/uncut-yellow-wire.png');
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 25px;
+
+
+}
+
+.clock{
+  height: 350px;
+  width: 130px;
+  margin: 0 auto;
+  background: black;
+  text-align: center;
+  margin-top: 250px;
+
+}
+
+.timerholder{
+  /*border: 2px solid white;*/
+  width: 129px;
+  height: 50px;
+}
+#timer{
+  color: red;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.resetHolder{
+  /*border: 3px solid white;*/
+  width: 129px;
+  height: 30px;
+}
+.reset{
+  color: white;
+}
